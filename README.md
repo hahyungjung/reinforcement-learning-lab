@@ -32,7 +32,8 @@ This repository is designed as both a study record and a technical portfolio.
 | Day 1 | Reinforcement Learning Basics | Completed |
 | Day 2 | Grid World with Q-Learning    | Completed |
 | Day 3 | Q-Learning Deep Dive          | Completed |
-| Day 4 | Exploration vs Exploitation   | Planned   |
+| Day 4 | Exploration vs Exploitation   | Completed |
+| Day 5 | Custom Grid World Environment | Planned   |
 
 ---
 
@@ -83,6 +84,20 @@ Main concepts:
 * Epsilon-greedy strategy
 * Exploration vs Exploitation
 
+### Day 4 — Exploration vs Exploitation
+
+Studied how an agent balances exploration and exploitation during Q-learning.
+
+Main concepts:
+
+* Exploration
+* Exploitation
+* Epsilon-greedy strategy
+* Epsilon decay
+* Random action selection
+* Q-table-based action selection
+* Comparison of different epsilon decay settings
+
 ---
 
 ## Project Structure
@@ -114,14 +129,16 @@ The project currently generates visual outputs such as:
 ```text
 outputs/figures/day02_training_progress.png
 outputs/figures/day02_final_policy.png
+outputs/figures/day04_epsilon_decay_comparison.png
+outputs/figures/day04_epsilon_history.png
 ```
 
-These outputs show the Q-learning training progress and the final learned policy in the Grid World environment.
+These outputs show the Q-learning training progress, the final learned policy, and how different epsilon decay settings affect exploration and exploitation.
 
 ---
 
 ## Next Step
 
-Day 4 will focus on Exploration vs Exploitation by experimenting with epsilon and epsilon decay.
+Day 5 will focus on building a custom Grid World environment from scratch.
 
-The next goal is to understand how the agent balances trying new actions and using the best-known actions during training.
+The next goal is to understand how an RL environment is structured internally without relying only on Gymnasium's built-in environments.
