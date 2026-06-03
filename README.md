@@ -33,7 +33,8 @@ This repository is designed as both a study record and a technical portfolio.
 | Day 2 | Grid World with Q-Learning    | Completed |
 | Day 3 | Q-Learning Deep Dive          | Completed |
 | Day 4 | Exploration vs Exploitation   | Completed |
-| Day 5 | Custom Grid World Environment | Planned   |
+| Day 5 | Custom Grid World Environment | Completed |
+| Day 6 | Q-Learning with Custom Grid World | Planned |
 
 ---
 
@@ -98,6 +99,21 @@ Main concepts:
 * Q-table-based action selection
 * Comparison of different epsilon decay settings
 
+### Day 5 — Custom Grid World Environment
+
+Built a simple custom Grid World environment from scratch.
+
+Main concepts:
+
+* Custom environment design
+* State representation
+* Action handling
+* Reward design
+* Episode termination
+* `reset()` function
+* `step(action)` function
+* Text-based rendering
+
 ---
 
 ## Project Structure
@@ -139,6 +155,6 @@ These outputs show the Q-learning training progress, the final learned policy, a
 
 ## Next Step
 
-Day 5 will focus on building a custom Grid World environment from scratch.
+Day 6 will focus on connecting the custom Grid World environment with a Q-learning agent.
 
-The next goal is to understand how an RL environment is structured internally without relying only on Gymnasium's built-in environments.
+The next goal is to train an agent using the environment built from scratch.
